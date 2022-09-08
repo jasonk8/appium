@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662430901180' stop='1662430901188'>
+    <name>Open the app</name>
+    <title>Open the app</title>
+    <test-cases>
+        <test-case start='1662430901180' status='passed' stop='1662430901186'>
+            <name>This needs to work I am so bored</name>
+            <title>This needs to work I am so bored</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 5 11-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

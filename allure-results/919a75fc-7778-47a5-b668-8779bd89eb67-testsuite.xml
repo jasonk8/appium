@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662433266158' stop='1662433269558'>
+    <name>Open the app</name>
+    <title>Open the app</title>
+    <test-cases>
+        <test-case start='1662433266158' status='broken' stop='1662433269557'>
+            <name>This needs to work I am so bored</name>
+            <title>This needs to work I am so bored</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 5 11-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>driver.manage is not a function</message>
+                <stack-trace>TypeError: driver.manage is not a function
+                    at Context.&lt;anonymous> (/Users/jkruger/Appium-Mobile/test/specs/mobiletest/newTest.js:17:12)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
